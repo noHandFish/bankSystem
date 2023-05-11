@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dvlms.mapper.LoanInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dvlms.entity.LoanInfo">
+        <id column="loan_idnum" property="loanIdnum" />
+        <result column="loan_identify" property="loanIdentify" />
+        <result column="loan_is_bonus" property="loanIsBonus" />
+        <result column="loan_property" property="loanProperty" />
+        <result column="loan_rela1_info" property="loanRela1Info" />
+        <result column="loan_rela1" property="loanRela1" />
+        <result column="loan_rela2_info" property="loanRela2Info" />
+        <result column="loan_rela2" property="loanRela2" />
+        <result column="loan_rela3_info" property="loanRela3Info" />
+        <result column="loan_rela3" property="loanRela3" />
+        <result column="loan_rela4_info" property="loanRela4Info" />
+        <result column="loan_rela4" property="loanRela4" />
+        <result column="loan_rela5_info" property="loanRela5Info" />
+        <result column="loan_rela5" property="loanRela5" />
+    </resultMap>
+
+</mapper>

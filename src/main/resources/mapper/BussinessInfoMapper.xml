@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dvlms.mapper.BussinessInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dvlms.entity.BussinessInfo">
+        <id column="con_id" property="conId" />
+        <result column="con_account" property="conAccount" />
+        <result column="con_start" property="conStart" />
+        <result column="con_end" property="conEnd" />
+        <result column="con_duration" property="conDuration" />
+        <result column="con_amount" property="conAmount" />
+        <result column="con_balance" property="conBalance" />
+        <result column="con_type" property="conType" />
+        <result column="con_rate" property="conRate" />
+        <result column="con_rate_type" property="conRateType" />
+        <result column="con_auto_amount" property="conAutoAmount" />
+        <result column="con_pass_amount" property="conPassAmount" />
+        <result column="con_direct" property="conDirect" />
+        <result column="con_use" property="conUse" />
+        <result column="con_date" property="conDate" />
+        <result column="con_way" property="conWay" />
+        <result column="con_nature" property="conNature" />
+        <result column="con_return" property="conReturn" />
+        <result column="con_return_plan" property="conReturnPlan" />
+        <result column="con_buss_class" property="conBussClass" />
+        <result column="con_com_class" property="conComClass" />
+        <result column="con_class" property="conClass" />
+        <result column="con_loan_class" property="conLoanClass" />
+    </resultMap>
+
+</mapper>

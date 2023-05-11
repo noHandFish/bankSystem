@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dvlms.mapper.GuarantorInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dvlms.entity.GuarantorInfo">
+        <id column="con_id" property="conId" />
+        <result column="gua1_name" property="gua1Name" />
+        <result column="gua1_idnum" property="gua1Idnum" />
+        <result column="gua1_ship" property="gua1Ship" />
+        <result column="gua2_name" property="gua2Name" />
+        <result column="gua2_idnum" property="gua2Idnum" />
+        <result column="gau2_ship" property="gau2Ship" />
+        <result column="sub1_name" property="sub1Name" />
+        <result column="sub1_idnum" property="sub1Idnum" />
+        <result column="sub1_is_rela" property="sub1IsRela" />
+        <result column="sub2_name" property="sub2Name" />
+        <result column="sub2_idnum" property="sub2Idnum" />
+        <result column="sub2_is_rela" property="sub2IsRela" />
+        <result column="sub3_name" property="sub3Name" />
+        <result column="sub3_idnum" property="sub3Idnum" />
+        <result column="sub3_is_rela" property="sub3IsRela" />
+    </resultMap>
+
+</mapper>

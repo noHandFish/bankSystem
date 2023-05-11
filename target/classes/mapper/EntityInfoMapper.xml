@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dvlms.mapper.EntityInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dvlms.entity.EntityInfo">
+        <id column="en_idnum" property="enIdnum" />
+        <result column="en_name" property="enName" />
+        <result column="en_identify" property="enIdentify" />
+        <result column="en_status" property="enStatus" />
+        <result column="en_region" property="enRegion" />
+        <result column="en_street" property="enStreet" />
+        <result column="en_village" property="enVillage" />
+        <result column="en_annual_income" property="enAnnualIncome" />
+    </resultMap>
+
+</mapper>

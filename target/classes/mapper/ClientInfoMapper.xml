@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dvlms.mapper.ClientInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dvlms.entity.ClientInfo">
+        <id column="cli_idnum" property="cliIdnum" />
+        <result column="cli_id" property="cliId" />
+        <result column="cli_name" property="cliName" />
+        <result column="cli_gender" property="cliGender" />
+        <result column="cli_village" property="cliVillage" />
+        <result column="cli_address" property="cliAddress" />
+        <result column="cli_worplace" property="cliWorplace" />
+        <result column="cli_phone" property="cliPhone" />
+        <result column="cli_marriage" property="cliMarriage" />
+        <result column="cli_spouse" property="cliSpouse" />
+        <result column="cli_spouse_idnum" property="cliSpouseIdnum" />
+        <result column="cli_spouse_phone" property="cliSpousePhone" />
+        <result column="cli_spouse_workspace" property="cliSpouseWorkspace" />
+        <result column="cli_account" property="cliAccount" />
+        <result column="cli_outlets" property="cliOutlets" />
+        <result column="cli_deposit" property="cliDeposit" />
+        <result column="cli_amount" property="cliAmount" />
+        <result column="cli_balance" property="cliBalance" />
+        <result column="cli_subbranch" property="cliSubbranch" />
+        <result column="cli_manager" property="cliManager" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dvlms.mapper.GuarantorCircleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dvlms.entity.GuarantorCircle">
+        <id column="gua_idnum" property="guaIdnum" />
+        <result column="gua_ship" property="guaShip" />
+        <result column="gua_loan_balance" property="guaLoanBalance" />
+        <result column="gua_total_amount" property="guaTotalAmount" />
+        <result column="gua_total_balance" property="guaTotalBalance" />
+        <result column="con_id" property="conId" />
+    </resultMap>
+
+</mapper>
